@@ -6,6 +6,7 @@ document.write('<script type="text/javascript" src="https://cdn.datatables.net/1
 // Thiết lập DataTables với ngôn ngữ tiếng Việt
 $(document).ready(function() {
   $('table.table').DataTable({
+    "pageLength": 100,
     "language": {
       "sProcessing":   "Đang xử lý...",
       "sLengthMenu":   "Hiển thị _MENU_ mục",
